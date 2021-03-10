@@ -13,7 +13,7 @@ class GS():
     mentor: List[str] = ["Technovation Canada", "Technolgap"]
     knowledge_base: List[str] = ["Mentoring","Machine Learning",
                                   "Deep Learning(DL)","Full Stack Development",
-                                  "End-to-End ML Pipelines in Azure"]
+                                  "End-to-End ML Pipelines"]
     current_side_project: str = "my Website using Gatsby and GraphQL"
     research_interest: str="Software Engineering and DL"
     hobbies : List[str] = ["Reading","Hiking","Illustrating","F1","⚽️","🏀","⛷"]
@@ -25,7 +25,7 @@ class GS():
         print(f"I work as a {cls.work_what} at the {cls.work_where} .")
         print(f"I am also a CS Research Assistant at {cls.univ} working at the intersection of {cls.research_interest}.")
         print(f"🔭 I’m currently building {cls.current_side_project}")
-        print(f"🌱 Ask me about: {', '.join(cls.knowledge_base)}")
+        print(f"🌱 Ask me about: {', '.join(cls.knowledge_base)}.")
         print(f"⏳ How I spend my free time : {', '.join(cls.hobbies)}")
 
 GS.helloWorld()
@@ -36,6 +36,6 @@ Hi there 👋, I'm Geetika 👩🏻‍💻.
 I work as a Data Scientist | AI Engineer  at the Canadian Food Inspection Agency, Ottawa 🇨🇦 .
 I am also a CS Research Assistant at Carleton University working at the intersection of Software Engineering and DL.
 🔭 I’m currently building my Website using Gatsby and GraphQL
-🌱 Ask me about: Mentoring, Machine Learning, Deep Learning, Full Stack Development, End-to-End ML Pipelines in Azure
+🌱 Ask me about: Mentoring, Machine Learning, Deep Learning, Full Stack Development, End-to-End ML Pipelines.
 ⏳ How I spend my free time : Reading, Hiking, Illustrating, F1, ⚽️, 🏀, ⛷
 
